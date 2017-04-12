@@ -9,6 +9,3 @@
 
 ;;smooth scrolling
 (setq prelude-use-smooth-scrolling t)
-
-;; Add dash-at-point
-(prelude-require-package 'dash-at-point)
