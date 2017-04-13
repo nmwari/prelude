@@ -33,3 +33,8 @@
 (when (require 'flycheck nil t)
   (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
   (add-hook 'elpy-mode-hook 'flycheck-mode))
+
+;; Add yas-snippet
+(prelude-require-package 'yasnippet)
+(add-to-list 'yas-snippet-dirs "/Users/Neil/.emacs.d/personal/snippets/yasnippet-snippets")
+(yas-global-mode +1)
