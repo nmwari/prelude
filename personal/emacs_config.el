@@ -38,3 +38,6 @@
 (prelude-require-package 'yasnippet)
 (add-to-list 'yas-snippet-dirs "/Users/Neil/.emacs.d/personal/snippets/yasnippet-snippets")
 (yas-global-mode +1)
+
+;; Add multiple-cursors
+(prelude-require-package 'multiple-cursors)
