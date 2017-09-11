@@ -41,3 +41,6 @@
 
 ;; Add multiple-cursors
 (prelude-require-package 'multiple-cursors)
+
+;; Install ein
+(prelude-require-package 'ein)
