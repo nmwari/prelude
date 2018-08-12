@@ -53,3 +53,6 @@
 
 ;; Install restclient
 (prelude-require-package 'restclient)
+
+;; Install Indium
+(prelude-require-package 'indium)
