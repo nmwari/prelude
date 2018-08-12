@@ -44,3 +44,12 @@
 
 ;; Install ein
 (prelude-require-package 'ein)
+
+;; Install robe
+(prelude-require-package 'robe)
+(add-hook 'ruby-mode-hook 'robe-mode)'
+(eval-after-load 'company
+  '(push 'company-robe company-backends))
+
+;; Install restclient
+(prelude-require-package 'restclient)
